@@ -360,10 +360,10 @@ esfera5.addEventListener( 'load', function(){
 
 // add os pinos e as setas dentro da esfera
 // esfera 1
-esfera.link( esfera2, new THREE.Vector3( -2351.41, 413.39, 4385.76 ), 350, PANOLENS.DataImage.SetaDir, "Hackaton" ); // onclick, localizacao, imagem, titulo para aparecer ao passar o mouse por cima
-esfera.link( esfera3, new THREE.Vector3( 4804.36, -113.64, 1344.71 ), 350, PANOLENS.DataImage.SetaEsq, "Makers(Petrobras)" );
+esfera.link( esfera2, new THREE.Vector3( -2351.41, 413.39, 4385.76 ), 350, PANOLENS.DataImage.SetaDir, "Hackathon" ); // onclick, localizacao, imagem, titulo para aparecer ao passar o mouse por cima
+esfera.link( esfera3, new THREE.Vector3( 4804.36, -113.64, 1344.71 ), 350, PANOLENS.DataImage.SetaEsq, "Maratona Makers(Petrobras)" );
 esfera.link( esfera4, new THREE.Vector3( 4991.77, 91.06, 88.75 ), 350, PANOLENS.DataImage.SetaCima, "Escada" );
-esfera.link( esfera5, new THREE.Vector3( -4910.53, -340.46, -829.20 ), 350, PANOLENS.DataImage.SetaCima, "Área berta" );
+esfera.link( esfera5, new THREE.Vector3( -4910.53, -340.46, -829.20 ), 350, PANOLENS.DataImage.SetaCima, "Área aberta" );
 esfera.add( pin_img_e1 );
 esfera.add( pin_map_e1 );
 esfera.add( pin_inf_e1 );
